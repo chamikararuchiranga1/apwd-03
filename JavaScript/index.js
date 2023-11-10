@@ -40,3 +40,49 @@ var name = 'Chamikara';
 
 // Boolean 
 // true / false
+
+// Object
+const obj = {
+    name : "chamikara",
+    age: "45",
+    run: function name() {
+    }
+}
+
+// Array 
+const array = ["chamikara", "Kasun"];
+
+// var / let / const 
+
+// Var 
+// can redeclared
+var a = "run"
+var a = "run-2"
+console.log(a)
+{var b = 10}
+// use hear 
+console.log(b)
+// can reassign
+a = 50
+console.log(a)
+
+// Let 
+let c = 12;
+console.log(c);
+// can not redeclared 
+// let c = 12;
+{let d = 30}
+// console.log(d);
+// can reassign 
+c = 15;
+console.log(c);
+
+// Const 
+const con = "acpt"
+// can not reassign
+// con = "apwd"
+// can not redeclared
+// const con = "apwd"
+{const k = "apwd"}
+// console.log(k);
+
