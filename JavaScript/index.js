@@ -86,3 +86,82 @@ const con = "acpt"
 {const k = "apwd"}
 // console.log(k);
 
+
+// Arithmetic Operators 
+
+// Addition (+)
+const l = 12;
+const w = 34;
+const addition = l+w;
+console.log(addition);
+
+// Subtraction (-)
+const subtraction = w-l;
+console.log(subtraction);
+
+// Miltiplication (*)
+const multiplication = l*w;
+console.log(multiplication);
+
+// Division (/)
+const division = w/l
+console.log(division);
+
+// Modulus (%)
+const modulus = w%l;
+console.log(modulus);
+
+// Increment (++)
+let h = 100;
+h++
+h++
+h++
+console.log(h);
+
+// Decrement (--)
+let y = 200;
+y--
+y--
+y--
+console.log(y);
+
+// Comparison Operators 
+const s = 14;
+const f = 14;
+
+// Equal (==)
+console.log("Equal = ", s == f);
+
+// Not Equal (!=)
+console.log("Not Equal = ", s != f);
+
+// Greater than (>)
+console.log("Greater than = ",s > f);
+
+// Less than (<)
+console.log("Less than = ", s < f);
+
+// Greater than or Equal to (>=)
+console.log("Greater than or Equal to = ", s >= f);
+
+// Less than or Equal to (<=)
+console.log("Less than or Equal to = ", s <= f);
+
+
+// Logical Operators 
+const u = true;
+const o = false;
+
+// AND (&&)
+console.log("AND = ",u && o);
+
+// OR (||)
+console.log("OR = ", u || o);
+
+// NOT (!)
+console.log("NOT = ", !u);
+
+// Function 
+function MyName () {
+    
+}
