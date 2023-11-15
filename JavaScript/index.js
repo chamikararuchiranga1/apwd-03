@@ -162,6 +162,53 @@ console.log("OR = ", u || o);
 console.log("NOT = ", !u);
 
 // Function 
-function MyName () {
-    
+function MyName (name, address, age) {
+    console.log("My Name is : ",name);
+    console.log("My Address is : ",address);
+    console.log("My Age is : ",age);
+}
+
+// const myName = () => {
+//     console.log("My Name is : Chamikara");
+// }
+
+// myName();
+
+MyName("Chamikara", "Panadura", 55);
+
+// function name -> NumberEqual 
+// number 1, number 2
+
+function NumberEqual(num1, num2){
+    const equal = num1+num2
+    // console.log("Equal : ");
+    return equal
+}
+
+const value = NumberEqual(12, 45);
+console.log(value);
+// NumberEqual(56, 100);
+// NumberEqual(12565, 12565);
+
+
+// num 4 < 100 input numbers
+
+const myFunction = (num1,num2, num3, num4) => {
+    const total = num1+num2+num3+num4;
+    const avg = total/4;
+    return avg;
+}
+
+const total = myFunction(23, 76, 95, 57);
+console.log(total);
+
+// Flow Controllers
+// if
+const marks = 66
+if(80 < marks){
+   console.log("A") 
+}else if(50 < marks){
+    console.log("B");
+}else{
+    console.log("C");
 }
