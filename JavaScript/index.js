@@ -204,11 +204,99 @@ console.log(total);
 
 // Flow Controllers
 // if
-const marks = 66
+const marks = 90
 if(80 < marks){
-   console.log("A") 
+    if(marks == 90){
+        console.log("Marks = 90");
+    }else {
+        console.log("Other");
+    }
+//    console.log("A") 
 }else if(50 < marks){
     console.log("B");
 }else{
     console.log("C");
 }
+
+// Switch 
+const swi = "APWD"
+switch(swi){
+    case "ACPT":
+        console.log("print ACPT");
+        break;
+    case "AFSD":
+        console.log("print AFSD");
+        break;
+        default:
+            console.log("Other");
+}
+
+// Loops 
+// for loop 
+
+// for(expression 1, expression 2, expression 3){
+    // body
+// }
+
+for(let i=0; i<10; i++){
+    console.log(i);
+}
+
+const arr = ["A","B","C","D","E","F","G","H","I"];
+for(let o=0; o<arr.length; o++){
+    console.log(o);
+}
+
+// while 
+let whi = 0;
+while(whi< 10){
+    console.log("AFSD");
+    whi++
+}
+
+let p = 0;
+do {
+    p++
+    console.log(p);
+}while(p < 10);
+
+console.log("=============================");
+for(let a=0; a<10; a++){
+    console.log(a);
+    if(a == 4){
+        // console.log(a);
+        break;
+    }
+}
+
+// Array 
+// const array1 = [12, "Chamikara", {}, false, []]
+
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+// const fruit = fruits.pop();
+// console.log(fruit);
+
+// fruits.push("Kiwi");
+// console.log(fruits);
+
+// const fruit = fruits.shift();
+// console.log(fruit);
+
+// fruits.unshift("Kiwi");
+// console.log(fruits);
+
+
+// Object 
+const person = {
+    name: "Chamikara",
+    address: "Panadura",
+    run: function(){console.log("run")},
+    walk : function(){console.log("walk")},
+}
+
+const name1 = person.address
+// console.log(name1);
+person.run();
+person.walk();
+
