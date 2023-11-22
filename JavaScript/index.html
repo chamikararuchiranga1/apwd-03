@@ -8,12 +8,28 @@
 <body>
     <h1>Java Script</h1>
 
+    <hr>
+    <h2>Event</h2>
+    <button onclick="clickMe()">Click me</button>
+    <br><br>
 
+    <input id="text-1" type="text" onchange="onChange()">
+    <h4 id="display"></h4>
+    <br><br>
+
+    <div id="mouse" style="background-color: red; width: 200px; height: 200px;" onmouseover="mouseOver()" onmouseout="mouseOut()"></div>
+    <br><br>
+
+    <input id="text-2" type="text" onkeydown="down()" onkeyup="up()">
+    <hr>
 
     <!-- Internal Script -->
     <script type="text/javascript">
         console.log("Chamikara");
         console.log("ACPT");
+        function clickMe (){
+            console.log("click")
+        }
     </script>
     <!-- External Script  -->
     <script type="text/javascript" src="index.js"></script>

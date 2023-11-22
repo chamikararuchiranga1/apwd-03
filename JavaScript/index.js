@@ -300,3 +300,38 @@ const name1 = person.address
 person.run();
 person.walk();
 
+const te = true;
+
+te ? console.log("true") : console.log("false")
+
+te && console.log("print true")
+
+// evnts 
+// click event 
+function clickMe (){
+    const text = document.getElementById('text-1').value
+    console.log(text);
+    document.getElementById("display").innerHTML = text
+}
+
+// onChange 
+function onChange() {
+    console.log("onchange");
+}
+
+function mouseOver() {
+    document.getElementById("mouse").style.backgroundColor = 'blue'
+    document.getElementById("mouse").style.width = '300px'
+}
+
+function mouseOut() {
+    document.getElementById("mouse").style.backgroundColor = 'red'
+}
+
+function down() {
+    console.log("print down");
+}
+
+function up() {
+    console.log("print Up");
+}
