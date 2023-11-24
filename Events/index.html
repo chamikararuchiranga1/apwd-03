@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <h1>Events</h1>
+    <div class="card w-50 m-2">
+        <h3 class="m-2">Same Name</h3>
+        <div class="card-body">
+            <input type="text" class="form-control mb-1" id="name-1" placeholder="First Name">
+            <input type="text" class="form-control" id="name-2" placeholder="Last Name">
+        </div>
+        <div class="text-center">
+            <h5 id="display-1"></h5>
+        </div>
+        <div class="d-flex justify-content-center">
+            <button onclick="sameName()" type="button" class="btn btn-primary w-25 m-2">Submit</button>
+        </div>
+    </div>
+
+    <!-- ============================================= -->
+    <!-- numers input 1 -->
+    <!-- number input 2  -->
+    <!-- num1 < num 2 print Number 2 -->
+    <!-- print Same Number  -->
+    <!-- print Number 1 -->
+
+    <div class="card w-50 m-2">
+        <h3 class="m-2">Number Greater Than</h3>
+        <div class="card-body">
+            <input type="number" class="form-control mb-1" id="num-1" placeholder="First Number">
+            <input type="number" class="form-control" id="num-2" placeholder="Last Number">
+        </div>
+        <div class="text-center">
+            <h5 id="display-2"></h5>
+        </div>
+        <div class="d-flex justify-content-center">
+            <button onclick="greaterThan()" type="button" class="btn btn-primary w-25 m-2">Submit</button>
+        </div>
+    </div>
+
+    <!-- =============================================== -->
+    <!-- input  -->
+    <div class="card w-50 m-2">
+        <h3 class="m-2">Number Addition</h3>
+        <div class="card-body">
+            <input onkeyup="nmberEqual()" type="number" class="form-control" id="num-3" placeholder="Number">
+        </div>
+        <div class="text-center">
+            <h5 id="display-3"></h5>
+        </div>
+    </div>
+
+    <!-- =================================================== -->
+
+    <!-- marks input 0 - 100 -->
+    <!-- m >= 75 -- A -->
+    <!-- m >= 65 -- B  -->
+    <!-- m >= 45 -- C   -->
+    <!-- m >= 35 -- S  -->
+    <!-- Print Fail  -->
+
+
+
+    <script type="text/javascript" src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
